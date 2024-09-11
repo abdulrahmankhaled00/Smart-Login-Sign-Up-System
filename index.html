@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>login</title>
+</head>
+
+<body>
+    <section  class="container  my-5 px-5   bg-transparent text-center  ">
+        <div id="main" class="shadow1 container mx-auto p-4     w-75 "> 
+            <h1 class="p-3">Smart Login System</h1>
+            <form class="  d-flex flex-column gap-4">
+                <input type="text" class="form-control bg-transparent  " id="emailInput"  placeholder="Enter email" />
+
+                <input type="text" class="form-control  bg-transparent" id="passwordInput"  placeholder="Password" />
+                
+                <span id="warning" class="d-none"></span>
+
+                <button type="button" id="sginin" class="btn btn-outline-info">Sign in</button>
+
+            </form>
+            <p class="text-white p-3">  Don’t have an account?  <a href="signup.html" class="text-decoration-none"><span  id="sgin" class=" text-white">Sigun up</span></a></p>
+
+        </div>
+    </section>
+
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

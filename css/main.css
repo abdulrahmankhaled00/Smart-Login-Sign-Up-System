@@ -1,0 +1,52 @@
+
+:root{
+    --clr-primary: #17a2b8;
+}
+
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{
+    color: var(--clr-primary) ;
+}
+
+
+.form-control{
+    color: white !important;
+}
+.form-control::placeholder{
+    color: #B6B6B6;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.0rem rgba(13,110,253,.25);
+}
+
+#warning{
+    color: red;
+}
+.btn:hover{
+    color: white;
+}
+#sgin:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navbar{
+    background-color: transparent !important;
+}
+
+.shadow1{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+nav .btn:hover{
+    color:white !important ;
+}
